@@ -2643,7 +2643,7 @@ message SignalMessage {
     optional bytes ciphertext = 4;
 }
 
-message RecordStructure {
+message UserRecord {
     optional uint32 id = 1;
     optional bytes publicKey = 2;
     optional bytes privateKey = 3;
